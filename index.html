@@ -39,10 +39,10 @@
       useDirtyRect: false
     });
     var app = {};
-    var ROOT_PATH = 'https://echarts.apache.org/examples';
+    var ROOT_PATH = 'https://memoo.online';
     var option;
 
-    $.get(ROOT_PATH + '/data/asset/data/aqi-beijing.json', function (data) {
+    $.get(ROOT_PATH + '/data.json', function (data) {
   myChart.setOption(
     (option = {
       title: {
