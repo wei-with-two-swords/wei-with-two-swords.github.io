@@ -78,7 +78,7 @@
           },
           dataZoom: [
             {
-              startValue: "2014-06-01",
+              startValue: "20260108",
             },
             {
               type: "inside",
@@ -90,31 +90,31 @@
             pieces: [
               {
                 gt: 0,
-                lte: 50,
+                lte: 1,
                 color: "#93CE07",
               },
               {
-                gt: 50,
-                lte: 100,
+                gt: 1,
+                lte: 2,
                 color: "#FBDB0F",
               },
               {
-                gt: 100,
-                lte: 150,
+                gt: 2,
+                lte: 3,
                 color: "#FC7D02",
               },
               {
-                gt: 150,
-                lte: 200,
+                gt: 3,
+                lte: 4,
                 color: "#FD0100",
               },
               {
-                gt: 200,
-                lte: 300,
+                gt: 4,
+                lte: 5,
                 color: "#AA069F",
               },
               {
-                gt: 300,
+                gt: 5,
                 color: "#AC3B2A",
               },
             ],
@@ -123,7 +123,7 @@
             },
           },
           series: {
-            name: "Beijing AQI",
+            name: "红利低波100ETF股息率",
             type: "line",
             data: data.map(function (item) {
               return item[1];
@@ -135,19 +135,19 @@
               },
               data: [
                 {
-                  yAxis: 50,
+                  yAxis: 1,
                 },
                 {
-                  yAxis: 100,
+                  yAxis: 2,
                 },
                 {
-                  yAxis: 150,
+                  yAxis: 3,
                 },
                 {
-                  yAxis: 200,
+                  yAxis: 4,
                 },
                 {
-                  yAxis: 300,
+                  yAxis: 5,
                 },
               ],
             },
